@@ -1,39 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
     <title>Air to Day</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav >
-            <ul></ul>
-                <li class="nav"> <a href="./mapa.html">Mapa de Calor</a></li>
-                <li class="nav"> <a href="">Estado del Aire</a></li>
+      <div class="prin">
+        <nav class="cont">
+
+        <div style="float: left">
+          <button
+            class="btn-btn-primary m-5"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvas"
+            aria-controls="offcanvas"
+          >
+            Boton :)
+          </button>
+
+          <!--offcanvas menu-->
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvas"
+            aria-labelledby="offcanvasLabel">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title">Menú Lateral</h2>
+            </div>
+            <div class="offcanvas-body">
+
+
+                <ul></ul>
+                <li class="nav"><a href="./mapa.html">Mapa de Calor</a></li>
+                <li class="nav"><a href="">Estado del Aire</a></li>
                 <li class="nav"><a href="">Estado del Clima</a></li>
                 <li class="nav"><a href="./quimicos.html">Consejos</a></li>
+            </div>
+          </div>
 
+          <!--offcanvas menu-->
+        </div>
+        <div class="nubogo" style="float:left;">
+
+            <img src="./img/nubogo.png" alt="Logo" />
+            <figcaption></figcaption>
+
+        </div>
+
+        <div >
+          <ul></ul>
+            <li class="nav"><a href="./mapa.html">Mapa de Calor</a></li>
+            <li class="nav"><a href="">Estado del Aire</a></li>
+            <li class="nav"><a href="">Estado del Clima</a></li>
+            <li class="nav"><a href="./quimicos.html">Consejos</a></li>
+
+        </div>
+
+          
+          
         </nav>
-
+      </div>
     </header>
 
     <main>
-        <br>
-        <h1>AIR TO DAY</h1>
-        <br>
-        <section>
-            <figure>
-                <img src="./img/tranlogo.png" alt="Logo">
-                <figcaption></figcaption>
-            </figure>
-            <br>
+      <br />
+      <h1>AIR TO DAY</h1>
+      <br />
+      <section>
+        <figure>
+          <img class="atd" src="./img/tranlogo.png" alt="Logo" />
+          <figcaption></figcaption>
+        </figure>
+        <br />
         <h2>A tu Alcance</h2>
-
-        </section>
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>

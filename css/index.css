@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 10px;
 }
 body{
     background-image: url("/img/nub.jpg");
@@ -14,20 +15,29 @@ body{
 }
 nav{
     background-color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 30px ;
     text-decoration: none;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    border-bottom-left-radius: 10% ;
+    border-bottom-right-radius: 10%  ;
+    
 
 }
 a{
+    font-size: 30px;
     text-decoration: none;
     color: rgb(0, 140, 255);
+    margin-right: 3rem;
+    margin-left: 3rem;
 
 }
-
+img{
+    width: 82px;
+    height: 50px;
+}
 a::after{
-    content: " | ";
+    content: "";
 }
 h1{
     text-align: center ;
@@ -37,12 +47,28 @@ h2{
     font-size: 30px;
 }
 
-img{
+.atd{
     border-radius: 50%;
     width:400px;
     height:400px ;
 }
 section{
     text-align: center;
+
+}
+
+.offcanvas-start{
+    max-width: 30rem;
+}
+.offcanvas-end{
+    background-color: rgb(42, 110, 170);
+}
+.nubogo{
+    width: 100px;
+    height: 100px;
+}
+.btn-btn-primary{
+    width: 60px;
+    height: 20px;
 
 }
