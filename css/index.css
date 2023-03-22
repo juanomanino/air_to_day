@@ -8,7 +8,9 @@ body{
     background-size: 1450px;
     background-attachment: fixed;
 }
-
+.prin{
+    height: ;
+}
 .nav{
     display: inline-block;
     text-decoration: none;
@@ -24,6 +26,7 @@ nav{
     
 
 }
+
 a{
     font-size: 30px;
     text-decoration: none;
@@ -65,7 +68,6 @@ section{
 }
 .nubogo{
     width: 100px;
-    height: 100px;
 }
 .boton-imagen{
     width: 7rem;
