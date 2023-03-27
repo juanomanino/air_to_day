@@ -8,12 +8,12 @@ body{
     background-size: 1450px;
     background-attachment: fixed;
 }
-.cont{
-    height: 10rem;
-
+nav{
+    height: 17rem;
 }
+
 .nav{
-    display: inline-block;
+    display: flex;
     text-decoration: none;
 }
 nav{
@@ -70,15 +70,17 @@ section{
 .nubogo{
     width: 100px;
 }
+.jogo{
+    margin-left: 100%;
+    width: 20rem; 
+    height: 13rem;
+}
 .boton-imagen{
-    width: 7rem;
-    height:7rem ;
+    display: flex;
+    width: 12rem;
+    height:12rem ;
 }
 .linksus{
-    visibility:visible
-}
-.jogo{
-    margin-left: 0px;
-    width: 13rem; 
-    height: 7rem;
+    visibility: hidden;
+    
 }

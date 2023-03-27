@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    width: cover;
+}
+.boton-imagen{
+    display: flex;
+    width: 12rem;
+    height:12rem ;
+}
+.jogo{
+    margin-left: 150%;
+    width: 20rem; 
+    height: 13rem;
+}
